@@ -1,0 +1,247 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff4ca;
+  padding: 50px 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.wrapper {
+  
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 5px #bdae82;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+header {
+  position: sticky;
+  top: -10px;
+  z-index: 10;
+}
+
+h1 {
+  margin: 0px;
+  padding: 20px 0 40px 0;
+  user-select: none;
+}
+
+h2 {
+  margin: 0px;
+  padding: 30px 0 25px 0;
+  text-align: center;
+  user-select: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #ffbe00;
+  height: 100%;
+  padding: 20px 40px;
+}
+
+.navigation img {
+  height: 50px;
+  width: 135px;
+}
+
+.navigation ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  list-style: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 17px;
+}
+
+.navigation a:hover {
+  color: #ffffff;
+}
+
+main {
+  padding: 10px 40px 30px 40px;
+  font-size: 18px;
+}
+
+.img_photo {
+  width: 200px;
+}
+
+.nameUser img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 15px 5px #bdae82;
+}
+
+.nameUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.information_me{
+  display: flex;
+  gap: 0 150px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact_data {
+  margin: 0;
+  font-weight: 600;
+}
+
+.сontact a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.сontact a:hover {
+  color: #bdae82;
+}
+
+.сontact li {
+  padding-bottom: 15px;
+}
+
+.about_me,
+.skills,
+.code_example,
+.experience,
+.education,
+.languages,
+.сontact {
+  padding-top: 15px;
+  position: relative;
+}
+
+.anchor {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -60px;
+}
+
+.skills img {
+  width: 100px;
+  height: 100px;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 120px;
+}
+
+.skills li {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+  width: 260px;
+}
+
+.code_example code {
+  display: flex;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #bdae82;
+}
+
+.experience a {
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.experience a:hover {
+  color: #bdae82;
+}
+
+.experience img {
+  height: 145px;
+  width: 280px;
+}
+
+.experience li {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+}
+
+.experience ul {
+  padding: 0;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 125px;
+}
+
+.education img {
+  width: 475px;
+  height: 300px;
+}
+
+.education_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education ul {
+  display: flex;
+flex-direction: column;
+  gap: 15px;
+}
+
+.languages img {
+  width: 450px;
+  height: 165px;
+  border: 1px solid #3fafd1;
+}
+
+.english {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffbe00;
+  height: 100%;
+  padding: 10px 40px;
+}
+
+.rs_school,
+.GitHub_Logo {
+  height: 50px;
+  width: 135px;
+}
+
+
+.information p{
+  font-size: 22px;
+  font-weight: bold;
+}
